@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "applicationId": "io.github.serjoga7831.vkvideotv",
+  "versionCode": 2,
+  "versionName": "0.2.0-prototype",
+  "minSdk": 26,
+  "size": 344117525,
+  "sha256": "04ae64fbd67a652d68d361e3b5e99b33fc8fd2b09e92161b3b61c95315569f8f",
+  "signingCertSha256": "6fa155c0bdb511a54d0343977e59985b55e094bf3bd9884320c6f701be3ef24c",
+  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.2.0-prototype/vk-video-tv-0.2.0-prototype-arm.apk",
+  "notes": "Добавлены проверка обновления, безопасная загрузка APK и запуск системной установки. Экспериментальная debug-сборка; на реальном ТВ ещё не проверена."
+}
