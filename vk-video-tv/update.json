@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "applicationId": "io.github.serjoga7831.vkvideotv",
-  "versionCode": 9,
-  "versionName": "0.5.1-prototype",
+  "versionCode": 10,
+  "versionName": "0.5.2-prototype",
   "minSdk": 26,
-  "size": 344187249,
-  "sha256": "eefc0387d358d1c5f5430b909474c9c1ce2cdf0d6a1b1440c24a0b1fa83fe45e",
+  "size": 344224113,
+  "sha256": "a4a7ed2fe13e90d1a7e07156adf2e65076bd63611c71208f2e9d0b5039f3b6c1",
   "signingCertSha256": "6fa155c0bdb511a54d0343977e59985b55e094bf3bd9884320c6f701be3ef24c",
-  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.1-prototype/vk-video-tv-0.5.1-prototype-arm.apk",
-  "notes": "Главная VK Видео открывается автоматически после готовности расширений. Добавлены дельта-обновления: при совпадении версии и SHA-256 скачиваются только изменения, затем проверяется и устанавливается полный APK. Если патч не подходит, загружается полный APK. Для версий до 0.5 требуется одно полное обновление.",
+  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.2-prototype/vk-video-tv-0.5.2-prototype-arm.apk",
+  "notes": "Рамка выделения охватывает целую карточку ролика. При воспроизведении влево/вправо перематывают на 5 секунд; на паузе стрелки двигают фокус. Кнопка паузы на пульте ставит ролик на паузу и снимает её.",
   "deltas": [
     {
       "algorithm": "vkdelta1",
-      "fromVersionCode": 8,
-      "fromSha256": "f815ed7fea2a556b27cc1b60e3931adf99d6e8f9467e939aa61d584149cf3b91",
-      "size": 120566,
-      "sha256": "8b79d46e963302256eb5405c844280c39884edfb1f7b01d44083ea6b6bce6acb",
-      "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.1-prototype/vk-video-tv-0.5.0-to-0.5.1.vkd.gz"
+      "fromVersionCode": 9,
+      "fromSha256": "eefc0387d358d1c5f5430b909474c9c1ce2cdf0d6a1b1440c24a0b1fa83fe45e",
+      "size": 157703,
+      "sha256": "be47b094b1031b81a56cbad7d52b5721bcff0fb67a0d8b380629e3c667514893",
+      "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.2-prototype/vk-video-tv-0.5.1-to-0.5.2.vkd.gz"
     }
   ]
 }
