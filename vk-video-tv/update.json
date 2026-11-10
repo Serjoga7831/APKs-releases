@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "applicationId": "io.github.serjoga7831.vkvideotv",
-  "versionCode": 10,
-  "versionName": "0.5.2-prototype",
+  "versionCode": 11,
+  "versionName": "0.5.3-prototype",
   "minSdk": 26,
-  "size": 344224113,
-  "sha256": "a4a7ed2fe13e90d1a7e07156adf2e65076bd63611c71208f2e9d0b5039f3b6c1",
+  "size": 344195441,
+  "sha256": "46d5967d9a527b649d43dd324cec1eaa51ebe51bb6ba47bb3a5c676e902c89bd",
   "signingCertSha256": "6fa155c0bdb511a54d0343977e59985b55e094bf3bd9884320c6f701be3ef24c",
-  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.2-prototype/vk-video-tv-0.5.2-prototype-arm.apk",
-  "notes": "Рамка выделения охватывает целую карточку ролика. При воспроизведении влево/вправо перематывают на 5 секунд; на паузе стрелки двигают фокус. Кнопка паузы на пульте ставит ролик на паузу и снимает её.",
+  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.3-prototype/vk-video-tv-0.5.3-prototype-arm.apk",
+  "notes": "Карточки vksport открываются. Двойное OK на выбранном ролике включает и выключает полный экран. Перемотка ±5с работает только на странице просмотра и больше не перехватывается беззвучными превью.",
   "deltas": [
     {
       "algorithm": "vkdelta1",
-      "fromVersionCode": 9,
-      "fromSha256": "eefc0387d358d1c5f5430b909474c9c1ce2cdf0d6a1b1440c24a0b1fa83fe45e",
-      "size": 157703,
-      "sha256": "be47b094b1031b81a56cbad7d52b5721bcff0fb67a0d8b380629e3c667514893",
-      "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.2-prototype/vk-video-tv-0.5.1-to-0.5.2.vkd.gz"
+      "fromVersionCode": 10,
+      "fromSha256": "a4a7ed2fe13e90d1a7e07156adf2e65076bd63611c71208f2e9d0b5039f3b6c1",
+      "size": 158734,
+      "sha256": "4057145429a95640e3044294667cf24b069dc355d0dbefa0e91e161d729b0b1a",
+      "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.3-prototype/vk-video-tv-0.5.2-to-0.5.3.vkd.gz"
     }
   ]
 }
