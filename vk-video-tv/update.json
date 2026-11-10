@@ -1,12 +1,22 @@
 {
   "schema": 1,
   "applicationId": "io.github.serjoga7831.vkvideotv",
-  "versionCode": 7,
-  "versionName": "0.4.1-prototype",
+  "versionCode": 9,
+  "versionName": "0.5.1-prototype",
   "minSdk": 26,
-  "size": 344170865,
-  "sha256": "f25d81272e0e318425c6f721cf159e5ed5a5a0c9129e6c706d4a25da42ee09cf",
+  "size": 344187249,
+  "sha256": "eefc0387d358d1c5f5430b909474c9c1ce2cdf0d6a1b1440c24a0b1fa83fe45e",
   "signingCertSha256": "6fa155c0bdb511a54d0343977e59985b55e094bf3bd9884320c6f701be3ef24c",
-  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.4.1-prototype/vk-video-tv-0.4.1-prototype-arm.apk",
-  "notes": "Компактное меню ⋮ вместо больших кнопок; настоящая версия в «О приложении»; понятные названия перезагрузки страницы и проверки обновлений. Исправлен порядок скрытия рекламного слоя VK. Экспериментальный debug-прототип: полная блокировка всех видов рекламы не гарантируется. Используется прежняя подпись; удалять старое приложение не нужно."
+  "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.1-prototype/vk-video-tv-0.5.1-prototype-arm.apk",
+  "notes": "Главная VK Видео открывается автоматически после готовности расширений. Добавлены дельта-обновления: при совпадении версии и SHA-256 скачиваются только изменения, затем проверяется и устанавливается полный APK. Если патч не подходит, загружается полный APK. Для версий до 0.5 требуется одно полное обновление.",
+  "deltas": [
+    {
+      "algorithm": "vkdelta1",
+      "fromVersionCode": 8,
+      "fromSha256": "f815ed7fea2a556b27cc1b60e3931adf99d6e8f9467e939aa61d584149cf3b91",
+      "size": 120566,
+      "sha256": "8b79d46e963302256eb5405c844280c39884edfb1f7b01d44083ea6b6bce6acb",
+      "url": "https://github.com/Serjoga7831/APKs-releases/releases/download/vk-video-tv-v0.5.1-prototype/vk-video-tv-0.5.0-to-0.5.1.vkd.gz"
+    }
+  ]
 }
